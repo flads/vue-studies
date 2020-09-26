@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Faça sua pergunta! </title>
+</head>
+<body>
+    <div id="watch-example">
+        <p>
+            Faça uma pergunta do tipo sim/não:
+            <input v-model="question">
+        </p>
+        <p>{{ answer }}</p>
+    </div>
+
+    <!-- Vue.js - versão de desenvolvimento, inclui avisos úteis no console  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
